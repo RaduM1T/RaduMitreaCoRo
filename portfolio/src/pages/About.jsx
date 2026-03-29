@@ -127,7 +127,7 @@ export default function About() {
             <motion.h1
               variants={fadeItem}
               className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               Crafting digital<br />
               <span className="gradient-text-warm">transformations.</span>
@@ -190,7 +190,7 @@ export default function About() {
           <section className="mb-20">
             <motion.h2
               className="text-2xl font-bold mb-10"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -239,7 +239,7 @@ export default function About() {
           <section className="mb-20">
             <motion.h2
               className="text-2xl font-bold mb-10"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -284,7 +284,7 @@ export default function About() {
                       </p>
                       <h3
                         className="text-base font-bold mb-0.5"
-                        style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                        style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
                       >
                         {title}
                       </h3>
@@ -307,7 +307,7 @@ export default function About() {
           <section className="mb-20">
             <motion.h2
               className="text-2xl font-bold mb-10"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -344,7 +344,7 @@ export default function About() {
                   <div>
                     <p
                       className="text-sm font-semibold leading-snug mb-1"
-                      style={{ color: 'var(--text-primary)', fontFamily: 'Syne, sans-serif' }}
+                      style={{ color: 'var(--text-primary)', fontFamily: 'Mulish, sans-serif' }}
                     >
                       {title}
                     </p>
@@ -363,7 +363,7 @@ export default function About() {
           <section className="mb-20">
             <motion.h2
               className="text-2xl font-bold mb-8"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -386,7 +386,7 @@ export default function About() {
               </p>
               <div className="space-y-3 mt-3">
                 <div>
-                  <p className="text-sm font-bold" style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}>
+                  <p className="text-sm font-bold" style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}>
                     Master&apos;s Degree — Public Relations
                   </p>
                   <p className="text-xs" style={{ color: 'var(--text-tertiary)' }}>2015 – 2017</p>
@@ -396,7 +396,7 @@ export default function About() {
                   style={{ background: 'var(--glass-border)' }}
                 />
                 <div>
-                  <p className="text-sm font-bold" style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}>
+                  <p className="text-sm font-bold" style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}>
                     Bachelor&apos;s Degree — Marketing
                     <span className="ml-2 text-xs font-normal" style={{ color: 'var(--accent)' }}>
                       GPA 9.50
@@ -424,7 +424,7 @@ export default function About() {
             />
             <h2
               className="text-2xl font-bold mb-3 relative"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               Want to work together?
             </h2>

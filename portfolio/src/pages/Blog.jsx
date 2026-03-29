@@ -87,7 +87,7 @@ export default function Blog() {
             </p>
             <h1
               className="text-4xl sm:text-5xl font-extrabold mb-4"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               All Articles
             </h1>
@@ -168,7 +168,7 @@ export default function Blog() {
               <div className="text-4xl mb-4">📭</div>
               <p
                 className="text-lg font-semibold mb-2"
-                style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
               >
                 No articles found
               </p>

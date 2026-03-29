@@ -68,7 +68,7 @@ export default function ArticleCard({ post, index = 0 }) {
           <h3
             className="text-lg font-bold leading-snug mb-3 transition-colors group-hover:text-white"
             style={{
-              fontFamily: 'Syne, sans-serif',
+              fontFamily: 'Mulish, sans-serif',
               color: 'var(--text-primary)',
             }}
           >

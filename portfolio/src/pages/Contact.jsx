@@ -93,7 +93,7 @@ export default function Contact() {
                 </p>
                 <h1
                   className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6"
-                  style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                  style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
                 >
                   Let&apos;s
                   <br />
@@ -328,7 +328,7 @@ function SuccessState() {
       </div>
       <h2
         className="text-2xl font-bold mb-3"
-        style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+        style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
       >
         Message sent!
       </h2>

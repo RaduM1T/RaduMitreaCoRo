@@ -120,7 +120,7 @@ export default function BlogPost() {
                 {/* Title */}
                 <h1
                   className="text-4xl sm:text-5xl font-extrabold leading-tight mb-6"
-                  style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                  style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
                 >
                   {post.title}
                 </h1>
@@ -228,7 +228,7 @@ export default function BlogPost() {
                   </p>
                   <p
                     className="text-base font-bold mb-2"
-                    style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                    style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
                   >
                     {post.author.name}
                   </p>
@@ -253,7 +253,7 @@ export default function BlogPost() {
             <hr className="divider mb-12" />
             <h2
               className="text-2xl font-bold mb-8"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               Related Articles
             </h2>

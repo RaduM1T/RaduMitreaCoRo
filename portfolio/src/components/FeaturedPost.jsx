@@ -82,7 +82,7 @@ export default function FeaturedPost({ post, loading }) {
           {/* Title */}
           <h2
             className="text-2xl sm:text-3xl font-extrabold leading-tight mb-4 transition-colors group-hover:text-white"
-            style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+            style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
           >
             {title}
           </h2>

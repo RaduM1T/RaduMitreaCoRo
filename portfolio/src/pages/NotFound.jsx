@@ -14,13 +14,13 @@ export default function NotFound() {
           >
             <p
               className="text-8xl font-extrabold mb-4 gradient-text"
-              style={{ fontFamily: 'Syne, sans-serif' }}
+              style={{ fontFamily: 'Mulish, sans-serif' }}
             >
               404
             </p>
             <h1
               className="text-2xl font-bold mb-4"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               Page not found
             </h1>

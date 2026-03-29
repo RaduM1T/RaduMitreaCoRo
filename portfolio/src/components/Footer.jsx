@@ -18,15 +18,11 @@ export default function Footer() {
   return (
     <footer
       className="relative mt-24"
-      style={{ borderTop: '1px solid var(--glass-border)' }}
+      style={{
+        borderTop: '1px solid var(--glass-border)',
+        background: 'linear-gradient(to top, var(--bg-tertiary), transparent)',
+      }}
     >
-      <div
-        className="absolute inset-0"
-        style={{
-          background: 'linear-gradient(to top, rgba(0,0,0,0.4), transparent)',
-          pointerEvents: 'none',
-        }}
-      />
       <div className="section-container relative py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
 
@@ -36,15 +32,15 @@ export default function Footer() {
               <div
                 className="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold text-white"
                 style={{
-                  background: 'linear-gradient(135deg, #0077b6, #00b4d8)',
-                  fontFamily: 'Syne, sans-serif',
+                  background: 'linear-gradient(135deg, #0F1516, #234C58)',
+                  fontFamily: 'Mulish, sans-serif',
                 }}
               >
                 RM
               </div>
               <span
                 className="font-semibold text-[0.9rem]"
-                style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+                style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--inkwell)' }}
               >
                 Radu Mitrea
               </span>
@@ -72,8 +68,10 @@ export default function Footer() {
                     {'to' in item ? (
                       <Link
                         to={item.to}
-                        className="text-sm transition-colors hover:text-white"
+                        className="text-sm transition-colors"
                         style={{ color: 'var(--text-secondary)' }}
+                        onMouseEnter={e => e.target.style.color = 'var(--inkwell)'}
+                        onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}
                       >
                         {item.label}
                       </Link>
@@ -82,8 +80,10 @@ export default function Footer() {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-sm transition-colors hover:text-white"
+                        className="text-sm transition-colors"
                         style={{ color: 'var(--text-secondary)' }}
+                        onMouseEnter={e => e.target.style.color = 'var(--inkwell)'}
+                        onMouseLeave={e => e.target.style.color = 'var(--text-secondary)'}
                       >
                         {item.label}
                       </a>

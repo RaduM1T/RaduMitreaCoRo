@@ -7,11 +7,11 @@ const POST_FIELDS = `
   publishedAt,
   mainImage,
   "estimatedReadingTime": round(length(pt::text(body)) / 5 / 200),
-  "categories": categories[]->{
+  "categories": coalesce(categories[]->{
     _id,
     title,
     "slug": slug.current
-  },
+  }, []),
   "author": author->{
     name,
     "slug": slug.current,

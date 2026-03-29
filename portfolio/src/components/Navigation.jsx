@@ -38,16 +38,16 @@ export default function Navigation() {
             <div
               className="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold text-white"
               style={{
-                background: 'linear-gradient(135deg, #0077b6, #00b4d8)',
-                boxShadow: '0 0 16px rgba(0,180,216,0.35)',
-                fontFamily: 'Syne, sans-serif',
+                background: 'linear-gradient(135deg, #0F1516, #234C58)',
+                boxShadow: '0 2px 12px rgba(35,76,88,0.28)',
+                fontFamily: 'Mulish, sans-serif',
               }}
             >
               RM
             </div>
             <span
               className="hidden sm:block font-semibold text-[0.9rem] tracking-wide"
-              style={{ fontFamily: 'Syne, sans-serif', color: 'var(--text-primary)' }}
+              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
               Radu Mitrea
             </span>
@@ -77,7 +77,7 @@ export default function Navigation() {
 
           {/* Mobile hamburger */}
           <button
-            className="md:hidden flex flex-col gap-1.5 p-2 rounded-lg transition-colors hover:bg-white/5"
+            className="md:hidden flex flex-col gap-1.5 p-2 rounded-lg transition-colors hover:bg-black/5"
             onClick={() => setMobileOpen(o => !o)}
             aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
             aria-expanded={mobileOpen}
@@ -86,19 +86,19 @@ export default function Navigation() {
               className="block w-5 h-0.5 bg-current rounded-full origin-center"
               animate={mobileOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
               transition={{ duration: 0.25 }}
-              style={{ color: 'var(--text-primary)' }}
+              style={{ color: 'var(--inkwell)' }}
             />
             <motion.span
               className="block w-5 h-0.5 bg-current rounded-full"
               animate={mobileOpen ? { opacity: 0, scaleX: 0 } : { opacity: 1, scaleX: 1 }}
               transition={{ duration: 0.2 }}
-              style={{ color: 'var(--text-primary)' }}
+              style={{ color: 'var(--inkwell)' }}
             />
             <motion.span
               className="block w-5 h-0.5 bg-current rounded-full origin-center"
               animate={mobileOpen ? { rotate: -45, y: -8 } : { rotate: 0, y: 0 }}
               transition={{ duration: 0.25 }}
-              style={{ color: 'var(--text-primary)' }}
+              style={{ color: 'var(--inkwell)' }}
             />
           </button>
         </div>
@@ -130,11 +130,11 @@ export default function Navigation() {
                     className={({ isActive }) =>
                       `block py-3 px-2 rounded-lg font-medium text-base transition-colors ${
                         isActive
-                          ? 'text-white bg-white/5'
-                          : 'text-[var(--text-secondary)] hover:text-white hover:bg-white/5'
+                          ? 'bg-[rgba(35,76,88,0.10)]'
+                          : 'hover:bg-[rgba(35,76,88,0.05)]'
                       }`
                     }
-                    style={{ fontFamily: 'Figtree, sans-serif' }}
+                    style={{ color: 'var(--inkwell)', fontFamily: 'Figtree, sans-serif' }}
                     onClick={closeMenu}
                   >
                     {label}
