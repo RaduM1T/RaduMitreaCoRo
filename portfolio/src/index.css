@@ -480,8 +480,16 @@ body {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* ─── Hide scrollbar utility ────────────────────────────────────────────── */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+}
+
 /* ─── Selection ─────────────────────────────────────────────────────────── */
 ::selection {
   background: rgba(35, 76, 88, 0.18);
   color: var(--inkwell);
 }
+
+/* ─── ProfileCard ─────────────────────────────────────────────────────────── */
