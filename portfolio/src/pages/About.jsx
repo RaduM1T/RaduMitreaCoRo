@@ -249,7 +249,7 @@ export default function About() {
 
             {/* Left — text */}
             <motion.div
-              className="flex-shrink-0 max-w-3xl"
+              className="min-w-0 w-full lg:flex-shrink-0 lg:max-w-3xl"
               variants={stagger}
               initial="initial"
               animate="animate"
