@@ -109,12 +109,13 @@ export default function Blog() {
             >
               <button
                 onClick={() => handleCategory('all')}
-                className={`badge cursor-pointer transition-all ${
-                  activeCategory === 'all'
-                    ? 'bg-[rgba(0,180,216,0.25)] border-[rgba(0,180,216,0.5)]'
-                    : ''
-                }`}
-                style={activeCategory === 'all' ? { color: '#22d3ee' } : {}}
+                className="badge cursor-pointer transition-all"
+                style={activeCategory === 'all' ? {
+                  background: 'rgba(35,76,88,0.15)',
+                  borderColor: 'rgba(35,76,88,0.40)',
+                  color: 'var(--inkwell)',
+                  fontWeight: 600,
+                } : {}}
               >
                 All
               </button>
@@ -122,12 +123,13 @@ export default function Blog() {
                 <button
                   key={cat._id}
                   onClick={() => handleCategory(cat.slug)}
-                  className={`badge cursor-pointer transition-all ${
-                    activeCategory === cat.slug
-                      ? 'bg-[rgba(0,180,216,0.25)] border-[rgba(0,180,216,0.5)]'
-                      : ''
-                  }`}
-                  style={activeCategory === cat.slug ? { color: '#22d3ee' } : {}}
+                  className="badge cursor-pointer transition-all"
+                  style={activeCategory === cat.slug ? {
+                    background: 'rgba(35,76,88,0.15)',
+                    borderColor: 'rgba(35,76,88,0.40)',
+                    color: 'var(--inkwell)',
+                    fontWeight: 600,
+                  } : {}}
                 >
                   {cat.title}
                 </button>
