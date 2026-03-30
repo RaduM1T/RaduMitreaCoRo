@@ -104,7 +104,7 @@ export default function Footer() {
             &copy; {year} Radu Mitrea. All rights reserved.
           </p>
           <p className="text-xs" style={{ color: 'var(--text-tertiary)' }}>
-            Built with React &amp; Sanity
+            Built with React &amp; <a href='https://www.sanity.io/' target ='_blank'>Sanity</a>
           </p>
         </div>
       </div>

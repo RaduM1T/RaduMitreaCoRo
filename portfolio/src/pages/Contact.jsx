@@ -128,7 +128,7 @@ export default function Contact() {
                     className="text-sm font-medium transition-colors group-hover:text-white"
                     style={{ color: 'var(--text-secondary)' }}
                   >
-                    hello@radumitrea.com
+                    mitrea.radu93@gmail.com
                   </span>
                 </a>
 

@@ -42,7 +42,7 @@ function HeroGraphic() {
 
         {/* Large teal filled circle — floats up-left */}
         <motion.circle
-          cx="168" cy="178" r="132"
+          cx="168" cy="178" r="150"
           fill="rgba(35,76,88,0.09)"
           stroke="rgba(35,76,88,0.18)"
           strokeWidth="1"
@@ -52,7 +52,7 @@ function HeroGraphic() {
 
         {/* Medium taupe circle — floats down-right */}
         <motion.circle
-          cx="312" cy="308" r="92"
+          cx="312" cy="308" r="100"
           fill="rgba(94,82,75,0.09)"
           stroke="rgba(94,82,75,0.20)"
           strokeWidth="1"
