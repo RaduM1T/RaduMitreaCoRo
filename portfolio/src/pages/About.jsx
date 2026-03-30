@@ -710,10 +710,10 @@ export default function About() {
               className="text-2xl font-bold mb-3 relative"
               style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
             >
-              Want to work together?
+              Want to chat about Power Platform?
             </h2>
             <p className="text-sm mb-6 relative" style={{ color: 'var(--text-secondary)' }}>
-              I&apos;m open to consulting engagements, collaborations, and interesting conversations.
+              I&apos;m open to collaborations, and interesting conversations.
             </p>
             <div className="relative flex flex-wrap gap-4 justify-center">
               <Link to="/contact" className="btn-primary">Reach Out</Link>

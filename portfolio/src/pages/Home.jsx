@@ -122,6 +122,57 @@ function HeroGraphic() {
         <circle cx="290" cy="430" r="6" fill="rgba(94,82,75,0.30)" />
 
       </svg>
+
+      {/* PowerApps — rides the large teal circle (center 168,178) */}
+      <motion.div
+        className="absolute"
+        style={{ left: 110, top: 120, width: 120, height: 120 }}
+        animate={{ x: [0, 14, 0], y: [0, -20, 0] }}
+        transition={{ duration: 10, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror' }}
+      >
+        <img src="/svg_icons/PowerApps_scalable.svg" width={120} height={120} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+      </motion.div>
+
+      {/* AI Builder — rides the parchment ring (center 348,112) */}
+      <motion.div
+        className="absolute"
+        style={{ left: 328, top: 92, width: 40, height: 40 }}
+        animate={{ x: [0, 14, 0], y: [0, -16, 0] }}
+        transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror' }}
+      >
+        <img src="/svg_icons/AIBuilder_scalable.svg" width={40} height={40} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+      </motion.div>
+
+      {/* Power Automate — rides the taupe circle (center 312,308) */}
+      <motion.div
+        className="absolute"
+        style={{ left: 280, top: 275, width: 80, height: 80 }}
+        animate={{ x: [0, -16, 0], y: [0, 16, 0] }}
+        transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror' }}
+      >
+        <img src="/svg_icons/PowerAutomate_scalable.svg" width={80} height={80} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+      </motion.div>
+
+      {/* Dataverse — rides the steel ring (center 100,340) */}
+      <motion.div
+        className="absolute"
+        style={{ left: 78, top: 318, width: 44, height: 44 }}
+        animate={{ x: [0, -12, 0], y: [0, 16, 0] }}
+        transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror', delay: 1 }}
+      >
+        <img src="/svg_icons/Dataverse_scalable.svg" width={44} height={44} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+      </motion.div>
+
+      {/* Power Pages — rides the right accent dot (center 390,210) */}
+      <motion.div
+        className="absolute"
+        style={{ left: 371, top: 191, width: 38, height: 38 }}
+        animate={{ y: [0, 12, 0] }}
+        transition={{ duration: 9, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror', delay: 1.5 }}
+      >
+        <img src="/svg_icons/PowerPages_scalable.svg" width={38} height={38} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+      </motion.div>
+
     </div>
   )
 }
@@ -164,10 +215,10 @@ export default function Home() {
                 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-[1.08] tracking-tight mb-6"
                 style={{ fontFamily: 'Mulish, sans-serif' }}
               >
-                Ideas worth{' '}
-                <span className="gradient-text-warm">writing</span>
+                Ideas grounded{' '}
+                <span className="gradient-text-warm">in</span>
                 <br />
-                <span style={{ color: 'var(--lunar-eclipse)' }}>about.</span>
+                <span style={{ color: 'var(--lunar-eclipse)' }}>Production.</span>
               </motion.h1>
 
               <motion.p
@@ -176,8 +227,10 @@ export default function Home() {
                 style={{ color: 'var(--text-secondary)' }}
               >
                 Thoughts on Microsoft Dynamics 365, Power Platform, digital transformation,
-                and building things that matter. Written by Radu Mitrea.
+                and building things that matter.
               </motion.p>
+
+            
 
               <motion.div {...fadeUp(0.4)} className="flex flex-wrap items-center gap-4">
                 <Link to="/blog" className="btn-primary text-sm px-6 py-3">
@@ -329,7 +382,7 @@ export default function Home() {
               className="text-base mb-8 max-w-md mx-auto relative"
               style={{ color: 'var(--text-secondary)' }}
             >
-              Whether it&apos;s a project, collaboration, or just a conversation —
+              Whether it&apos;s an interesting blog topic, or just a conversation <br/>
               I&apos;d love to hear from you.
             </p>
             <div className="relative flex flex-wrap gap-4 justify-center">
