@@ -271,7 +271,7 @@ export default function About() {
               </motion.h1>
               <motion.div variants={fadeItem} className="space-y-4">
                 <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  I&apos;m Radu Mitrea, a Senior Technology Consultant at BearingPoint based in Bucharest,
+                  Hello there! I&apos;m Radu, a Senior Technology Consultant at BearingPoint based in Bucharest,
                   Romania. I specialise in Microsoft Dynamics 365 and Power Platform — helping
                   organisations rethink how they engage customers and automate the work that slows them down.
                 </p>
