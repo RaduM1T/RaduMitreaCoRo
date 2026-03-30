@@ -272,11 +272,11 @@ export default function About() {
               <motion.div variants={fadeItem} className="space-y-4">
                 <p className="text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                   Hello there! I&apos;m Radu, a Senior Technology Consultant at BearingPoint based in Bucharest,
-                  Romania. I specialise in Microsoft Dynamics 365 and Power Platform — helping
+                  Romania. I specialise in Microsoft Dynamics 365 and Power Platform, helping
                   organisations rethink how they engage customers and automate the work that slows them down.
                 </p>
                 <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                  My path into tech started in marketing and PR — and that background never left me.
+                  My path into tech started in marketing and PR, and that background never left me.
                   I translate complex technical concepts into strategies people actually understand and use.
                   Whether architecting a CRM platform or mentoring a team, I care deeply about the
                   &quot;why&quot; behind every system.
