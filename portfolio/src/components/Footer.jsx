@@ -28,22 +28,18 @@ export default function Footer() {
 
           {/* Brand */}
           <div className="md:col-span-1">
-            <Link to="/" className="flex items-center gap-3 mb-4 group w-fit">
-              <div
-                className="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold text-white"
-                style={{
-                  background: 'linear-gradient(135deg, #0F1516, #234C58)',
-                  fontFamily: 'Mulish, sans-serif',
-                }}
-              >
-                RM
-              </div>
-              <span
-                className="font-semibold text-[0.9rem]"
-                style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--inkwell)' }}
-              >
-                Radu Mitrea
-              </span>
+            <Link to="/" className="relative inline-flex mb-4 group w-fit">
+              <img
+                src="/logoFullColor.svg"
+                alt="Radu Mitrea"
+                className="h-12 w-auto transition-opacity duration-200 group-hover:opacity-0"
+              />
+              <img
+                src="/logoFullCoverHover.svg"
+                alt=""
+                aria-hidden="true"
+                className="h-12 w-auto absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
+              />
             </Link>
             <p
               className="text-sm leading-relaxed max-w-xs"

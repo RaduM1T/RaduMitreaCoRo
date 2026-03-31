@@ -34,23 +34,18 @@ export default function Navigation() {
         <div className="flex items-center justify-between py-4">
 
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3 group" onClick={closeMenu}>
-            <div
-              className="w-9 h-9 rounded-lg flex items-center justify-center text-sm font-bold text-white"
-              style={{
-                background: 'linear-gradient(135deg, #0F1516, #234C58)',
-                boxShadow: '0 2px 12px rgba(35,76,88,0.28)',
-                fontFamily: 'Mulish, sans-serif',
-              }}
-            >
-              RM
-            </div>
-            <span
-              className="hidden sm:block font-semibold text-[0.9rem] tracking-wide"
-              style={{ fontFamily: 'Mulish, sans-serif', color: 'var(--text-primary)' }}
-            >
-              Radu Mitrea
-            </span>
+          <Link to="/" className="relative flex items-center group" onClick={closeMenu}>
+            <img
+              src="/logoFullColor.svg"
+              alt="Radu Mitrea"
+              className="h-12 w-auto transition-opacity duration-200 group-hover:opacity-0"
+            />
+            <img
+              src="/logoFullCoverHover.svg"
+              alt=""
+              aria-hidden="true"
+              className="h-12 w-auto absolute inset-0 transition-opacity duration-200 opacity-0 group-hover:opacity-100"
+            />
           </Link>
 
           {/* Desktop nav */}
