@@ -338,7 +338,7 @@ export default function About() {
                 enableMobileTilt
                 behindGlowColor="rgba(35, 76, 88, 0.50)"
                 behindGlowEnabled
-                innerGradient="linear-gradient(145deg, rgba(35,76,88,0.55) 0%, rgba(127,140,148,0.30) 100%)"
+                innerGradient="linear-gradient(80deg, rgba(35,76,88,0.55) 0%, rgba(127,140,148,0.30) 100%)"
                 onContactClick={() => window.location.href = '/contact'}
               />
             </motion.div>

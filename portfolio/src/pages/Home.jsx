@@ -136,11 +136,11 @@ function HeroGraphic() {
       {/* AI Builder — rides the parchment ring (center 348,112) */}
       <motion.div
         className="absolute"
-        style={{ left: 328, top: 92, width: 40, height: 40 }}
+        style={{ left: 317, top: 83, width: 65, height: 65}}
         animate={{ x: [0, 14, 0], y: [0, -16, 0] }}
         transition={{ duration: 8, repeat: Infinity, ease: 'easeInOut', repeatType: 'mirror' }}
       >
-        <img src="/svg_icons/AIBuilder_scalable.svg" width={40} height={40} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
+        <img src="/svg_icons/AIBuilder_scalable.svg" width={65} height={65} style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.15))' }} />
       </motion.div>
 
       {/* Power Automate — rides the taupe circle (center 312,308) */}
