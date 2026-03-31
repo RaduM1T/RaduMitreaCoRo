@@ -83,7 +83,7 @@ export default function Blog() {
               className="text-xs uppercase tracking-widest font-semibold mb-3"
               style={{ color: 'var(--accent)', fontFamily: 'Figtree, sans-serif' }}
             >
-              Writing
+              Thoughts
             </p>
             <h1
               className="text-4xl sm:text-5xl font-extrabold mb-4"
@@ -95,7 +95,7 @@ export default function Blog() {
               className="text-lg"
               style={{ color: 'var(--text-secondary)' }}
             >
-              Thoughts on technology, design, and building things that matter.
+              Perspectives on technology, design, and building things that matter.
             </p>
           </motion.div>
 
