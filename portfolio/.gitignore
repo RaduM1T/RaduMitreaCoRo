@@ -10,6 +10,7 @@ studio/dist
 .env
 .env.local
 .env.*.local
+.env.example
 
 # Editor
 .vscode
