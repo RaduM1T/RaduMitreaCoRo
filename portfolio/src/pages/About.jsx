@@ -657,17 +657,6 @@ export default function About() {
                     >
                       Bachelor&apos;s Degree
                     </p>
-                    <span
-                      className="text-[10px] font-semibold uppercase tracking-widest px-2 py-0.5 rounded-full"
-                      style={{
-                        background: 'rgba(35,76,88,0.10)',
-                        color: 'var(--accent)',
-                        border: '1px solid rgba(35,76,88,0.18)',
-                        fontFamily: 'Figtree, sans-serif',
-                      }}
-                    >
-                      GPA 9.50
-                    </span>
                   </div>
                   <span
                     className="text-xs flex-shrink-0 mt-0.5"
