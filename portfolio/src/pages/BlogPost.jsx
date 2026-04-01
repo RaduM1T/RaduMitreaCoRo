@@ -7,6 +7,7 @@ import { postBySlugQuery, relatedPostsQuery } from '../lib/queries'
 import { formatDate, readingTimeLabel } from '../lib/utils'
 import PageTransition from '../components/PageTransition'
 import ArticleCard from '../components/ArticleCard'
+import CommentsSection from '../components/CommentsSection'
 
 // Custom Portable Text components for the glass aesthetic
 const portableTextComponents = {
@@ -201,6 +202,11 @@ export default function BlogPost() {
               </motion.div>
             ) : (
               <p style={{ color: 'var(--text-secondary)' }}>No content available.</p>
+            )}
+
+            {/* Comments */}
+            {!loading && post && (
+              <CommentsSection slug={slug} />
             )}
 
             {/* Author bio */}
